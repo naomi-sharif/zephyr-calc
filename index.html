@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="dist/main.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <div class="main-content">
+
+                <header class="header">
+                    <h1 class="heading heading--main">
+                        Zephyr Mortgage Calculator
+                    </h1>
+                </header> <!-- Header End -->
+                
+
+                <section class="section-container section-container--property-income">
+
+                    <h2 class="heading heading--secondary">
+                        Property Income Section
+                    </h2>
+
+                    <section class="form-container">
+
+                        <form action="#" class="form form--property-income">
+
+                            <select name="borrower-type" class="form__input form__input--select">
+                                <option value="borrower-type">Limited Company</option>
+                                <option value="borrower-type">Individual</option>
+                            </select>
+
+                            <select name="property-type" class="form__input form__input--select">
+                                <option value="property-type">HMO</option>
+                                <option value="property-type">Standard 140%</option>
+                                <option value="property-type">Multi Unit Freehold</option>
+                                <option value="property-type">Flat Above Commercial and/or New Build</option>
+                            </select>
+
+                            <input type="text" class="form__input form__input--text">
+
+                            <input type="text" class="form__input form__input--text">
+
+                            <select name="fixed" class="form__input form__input--select">
+                                <option value="fixed-for-5-years">Yes</option>
+                                <option value="fixed-for-5-years">No</option>
+                            </select>
+
+                            <select name="like-for-like" class="form__input form__input--select">
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+
+                            <input type="text" class="form__input form__input--text">
+
+                           
+                            <select name="tax" class="form__input form__input--select">
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                                        
+                        </form> <!-- Property Income Form End -->
+
+                    </section>  <!-- Property Income Form Container End -->
+
+                    <section class="section-container secion-container--affordability">
+
+                        <div class="section-container section--container--product-affordability">
+
+                            <h3 calass="heading heading-tertiary">
+                                Product Affordability
+                            </h3>
+
+                            <div class="form-container">
+                                <form action="#" class="form form--product-affordability">
+                                    <input type="text" class="form__input form_input--text">
+                                    <input type="text" class="form__input form_input--text">
+                                    <input type="text" class="form__input form_input--text">
+                                </form>
+                            </div>
+                        </div>  <!-- Product Affordability Section End -->
+
+                        <div class="section-container section--container--product-affordability">
+
+                            <h3 calass="heading heading-tertiary">
+                                Stressed Affordability
+                            </h3>
+
+                            <div class="form-container">
+                                <form action="#" class="form form--stressed-affordability">
+                                    <input type="text" class="form__input form_input--text">
+                                    <input type="text" class="form__input form_input--text">
+                                    <input type="text" class="form__input form_input--text">
+                                </form>
+                            </div>
+
+                        </div>  <!-- Stressed Affordability Section End -->
+                        
+                    </section>  <!-- Affordability Section End -->
+
+                </section> <!-- Property Income Section End-->
+
+            </div> <!-- Main Content End-->
+
+        </div> <!-- Wrapper End-->
+
+        <script src="dist/app.js"></script>
+    </body>
+
+</html>
